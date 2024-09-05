@@ -1,0 +1,29 @@
+.image {
+    z-index: 0;
+    position: fixed;
+    top: 140px;
+    left: 620px;
+    pointer-events: none;
+}
+
+.text_titre {
+    z-index: 10;
+    position: fixed;
+    top: 50px;
+    left: 730px;
+}
+.suite_text_titre {
+    z-index: 10;
+    position: fixed;
+    top: 90px;
+    left: 700px;
+}
+
+.infosAuteur {
+    position: fixed;
+    top: 520px;
+    left: 90px;
+    z-index: 1000;
+    color: white;
+}
+

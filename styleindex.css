@@ -1,0 +1,219 @@
+
+/*Création du fond de la page*/
+.imageFond {
+    z-index: 0;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #5e5c5c,#a3a2a2,#918f8f,#737171)
+}
+/*FIN de création du fond de la page*/
+
+/*Création du haut de la bande principale*/
+.fondimage {
+    position: absolute;
+     left: -95px;
+     top: 0px;
+     z-index: -1; /* Place l'ombre en dessous de l'image */
+     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* Dégradé noir transparent */
+
+}
+/*FIN de création du haut de la bande principale*/
+
+
+#dateHeure {
+    position:absolute;
+    top:0%;
+    left:5%;
+}
+
+#sidePanel {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0px; /* Déplacez la bande noire hors de l'écran par défaut */
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    transition: left 0.3s ease; /* Ajoute une transition pour une animation fluide */
+    cursor: pointer;
+    pointer-events: none;
+}
+
+
+/*Création des boutons hypertextes*/
+
+#monBouton1 {
+    width: 375px; /* Largeur du bouton en pixels */
+    height: 32px; /* Hauteur du bouton en pixels */
+    font-size: 16px; /* Taille de la police du texte du bouton */
+    background-color: blue;
+    position: fixed;
+    top: 158px;
+    left: 0px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+
+  }
+  #monBouton2 {
+    width: 375px; /* Largeur du bouton en pixels */
+    height: 30px; /* Hauteur du bouton en pixels */
+    font-size: 16px; /* Taille de la police du texte du bouton */
+    background-color: blue;
+    position: fixed;
+    top: 218px;
+    left: 0px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+  }
+  #monBouton3 {
+    width: 375px; /* Largeur du bouton en pixels */
+    height: 30px; /* Hauteur du bouton en pixels */
+    font-size: 16px; /* Taille de la police du texte du bouton */
+    background-color: blue;
+    position: fixed;
+    top: 276px;
+    left: 0px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+  }
+  #monBouton4 {
+    width: 375px; /* Largeur du bouton en pixels */
+    height: 30px; /* Hauteur du bouton en pixels */
+    font-size: 16px; /* Taille de la police du texte du bouton */
+    background-color: blue;
+    position: fixed;
+    top: 335px;
+    left: 0px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+  }
+  #monBouton5 {
+    width: 375px; /* Largeur du bouton en pixels */
+    height: 30px; /* Hauteur du bouton en pixels */
+    font-size: 16px; /* Taille de la police du texte du bouton */
+    background-color: blue;
+    position: fixed;
+    top: 394px;
+    left: 0px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+  }
+  #monBouton6 {
+    width: 375px; /* Largeur du bouton en pixels */
+    height: 30px; /* Hauteur du bouton en pixels */
+    font-size: 16px; /* Taille de la police du texte du bouton */
+    background-color: blue;
+    position: fixed;
+    top: 452px;
+    left: 0px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+    
+  }
+#Logoparametre {
+    position: fixed;
+    top: 520px;
+    left: 0px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/*FIN de création des boutons hypertextes*/
+
+
+/*Création des bandes horizontaux sur la bande principale vertical*/
+
+.casecolor1 {
+    
+    width: 475px; /* Largeur du carré */
+    height: 40px; /* Hauteur du carré */
+    background-color: #424141; /* Couleur du carré (rouge dans cet exemple) */
+   
+}
+.casecolor2 {
+    width: 475px; /* Largeur du carré */
+    height: 40px; /* Hauteur du carré */
+    background-color: #424141; /* Couleur du carré (rouge dans cet exemple) */
+}
+.casecolor3 {
+    width: 475px; /* Largeur du carré */
+    height: 40px; /* Hauteur du carré */
+    background-color: #424141; /* Couleur du carré (rouge dans cet exemple) */
+}
+.casecolor4 {
+    width: 475px; /* Largeur du carré */
+    height: 40px; /* Hauteur du carré */
+    background-color: #424141; /* Couleur du carré (rouge dans cet exemple) */
+}
+.casecolor5 {
+    width: 475px; /* Largeur du carré */
+    height: 40px; /* Hauteur du carré */
+    background-color: #424141; /* Couleur du carré (rouge dans cet exemple) */
+}
+.casecolor6 {
+    width: 475px; /* Largeur du carré */
+    height: 40px; /* Hauteur du carré */
+    background-color: #424141; /* Couleur du carré (rouge dans cet exemple) */
+}
+.parametre {
+    position:absolute;
+    top: 102%;
+    left : 25%;
+}
+/*FIN de création des bandes horizontaux sur la bande principale vertical*/
+
+
+/*Création des cases pour spécifiquer quelle case mene a quelle page.html*/
+
+.case1 {
+     position:absolute;
+    left: 250px;
+    top: 148px;
+}
+.case2 {
+    position:absolute;
+   left: 247px;
+   top: 208px;
+}
+.case3 {
+    position:absolute;
+   left: 180px;
+   top: 266px;
+}
+.case4 {
+    position:absolute;
+   left: 189px;
+   top: 325px;
+}
+.case5 {
+    position:absolute;
+   left: 250px;
+   top: 384px;
+}
+.case6 {
+    position:absolute;
+   left: 232px;
+   top: 443px;
+}
+
+/*FIN de création des cases pour spécifiquer quelle case mene a quelle page.html*/
+
+

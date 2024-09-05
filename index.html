@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub</title> 
+    <link rel="icon" type="image/x-icon" href="medias/iconeStudentHub.png" sizes="192x100">                               <!--Titre de la page-->
+    <link href="css/styleindex.css" rel="stylesheet" type="text/css">   <!--relier à un fichier CSS-->
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+   
+  <body>
+      <div class="imageFond"></div>                                    <!--Image fond-->
+
+        <div id="sidePanel">                                           <!--Création de la bande sur le coté-->
+          <h5><p id="dateHeure"></p></h5>                              <!--Affichage Heure+Date-->
+          <center><h1>Student Hub</h1></center>
+        
+        <div class="fondimage">                                        <!--Image sur la bande sur le coté-->
+          <img src="medias/Fondnoir.jpg" height="150" width="473">     <!--Image-->
+               
+       <!--Définir les pages-->
+             <div class="case1"><p>Accueil</p></div>                         
+             <div class="case2"><p>Agenda</p></div>
+             <div class="case3"><p>Apprendre par le numérique</p></div>
+             <div class="case4"><p>Conservation de travaux</p></div>
+             <div class="case5"><p>Forum</p></div>
+             <div class="case6"><p>Evenement</p></div> 
+       <!--Fin définir les pages-->
+         
+       <!--création des bandes secondaires sur la bande principale-->
+          <div class="casecolor1"></div><br/>                            
+          <div class="casecolor2"></div><br/>
+          <div class="casecolor3"></div><br/> 
+          <div class="casecolor4"></div><br/>  
+          <div class="casecolor5"></div><br/>
+          <div class="casecolor6"></div><br/>                            
+       <!--Fin de création des bandes secondaires sur la bande principale--> 
+
+      </div>      <!--/div tres essentiellement pour assembler tout-->
+     </div>       <!--/div tres essentiellement pour assembler tout-->
+    
+
+       
+      
+       <!--Création boutons(non visible) pour faire des liens hypertextes-->
+      
+       <a link href="Pages/accueil.html">
+        <input type="button" id="monBouton1">
+       </a>
+       <a link href="Pages/agenda.html">
+        <input type="button" id="monBouton2">
+       </a>
+       <a link href="Pages/apprendreNumerique.html">
+        <input type="button" id="monBouton3">
+       </a>
+       <a link href="Pages/concervationTravaux.html">
+        <input type="button" id="monBouton4">
+       </a>
+       <a link href="Pages/forum.php">
+        <input type="button" id="monBouton5">
+       </a>
+       <a link href="Pages/evenement.html">
+        <input type="button" id="monBouton6">
+       </a>
+       <div id="Logoparametre">
+       <a link href="Pages/parametre.html">
+        <img src="medias/Logoparametre.png" width="40" height="40">
+       </a>
+       </div>
+
+       <div class="infosAuteur">
+        <footer> <!--Balise utilisé pour contenir les infos de droit d'auteur-->
+             <p>© 2024 NathanM&M,Clement.</p>
+        </footer>
+      </div>
+
+
+       <!--Fin de création des boutons(non visible) pour faire les liens hypertextes-->
+       
+      <!--Début de création des fonctionnalités de la page-->
+      
+      <img src="medias/iconeStudentHub.png" class="image" width="380" height="380">
+        
+      <div class="text_titre">
+        <b><h1><p>Bienvenue</p></h1></b>
+      </div>
+      <div class="suite_text_titre">
+        <b><h1><p>sur Student Hub</p></h1></b>
+      </div>
+
+      
+
+    <script src="js/DateHeure.js"></script>  <!--Relier a un fichier JS-->
+  
+</body>
+</html>
